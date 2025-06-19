@@ -93,7 +93,7 @@
             // sensor-bindings = <&scroll_up_down>;
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
 
-            sensor-bindings = <&inc_dec_kp A B>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
