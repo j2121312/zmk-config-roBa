@@ -55,9 +55,12 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             // 追加: スクロールのタップ時間を設定 (20ms)
+
             tap-ms = <20>;
         };
+
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -66,11 +69,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -88,7 +93,8 @@
 
             // sensor-bindings = <&scroll_up_down>;
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
-            sensor-bindings = <&encoder_msc_down_up>;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         FUNCTION {
