@@ -86,8 +86,8 @@
             bindings = <
 &kp Q      &kp W         &kp E         &kp R           &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D         &kp F           &kp G        &kp ESCAPE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V           &kp B        &kp TAB          &kp BACKSLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &lt 1 GRAVE      &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
+&kp Z      &kp X         &kp C         &kp V           &kp B        &kp TAB          &kp BACKSLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &lt 1 GRAVE      &kp BACKSPACE  &lt 3 ENTER                             &lt 5 DELETE
             >;
 
             // sensor-bindings = <&scroll_up_down>;
@@ -98,10 +98,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans       &trans
-&trans  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp TILDE  &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SQT      &trans
-&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp PIPE   &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp AT_SIGN  &trans
-&trans  &trans           &trans                &trans                 &trans     &trans      &trans  &trans                                                                   &trans
+&trans  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans       &trans
+&trans  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp TILDE  &trans      &kp LC(C)  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SQT      &trans
+&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp PIPE   &trans      &kp LC(V)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp AT_SIGN  &trans
+&trans  &trans           &trans                &trans                 &trans     &trans      &trans     &trans                                                                   &trans
             >;
         };
 
@@ -134,12 +134,12 @@
             >;
         };
 
-        SCROLL {
+        SHORTCUT {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans     &trans     &kp LC(Y)  &kp LC(Z)      &kp LC(X)                      &trans  &trans  &trans  &trans  &trans
+&kp LC(A)  &kp LC(S)  &kp LC(V)  &kp LC(C)      &kp LC(F)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &kp LA(LC(Z))  &kp LC(B)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &trans         &trans     &trans      &trans  &trans                          &trans
             >;
         };
 
