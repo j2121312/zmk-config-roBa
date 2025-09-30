@@ -136,10 +136,10 @@
 
         SHORTCUT {
             bindings = <
-&trans     &trans     &kp LC(Y)  &kp LC(Z)      &kp LC(X)                      &trans  &trans  &trans  &trans  &trans
-&kp LC(A)  &kp LC(S)  &kp LC(V)  &kp LC(C)      &kp LC(F)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans     &kp LA(LC(Z))  &kp LC(B)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans     &trans         &trans     &trans      &trans  &trans                          &trans
+&trans     &trans     &kp LG(E)  &kp LC(LS(N))  &kp LG(L)                             &trans  &trans  &trans  &trans  &trans
+&kp LC(A)  &kp LC(S)  &kp LC(Y)  &kp LC(F)      &kp LC(H)  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(B)  &kp LC(LA(Z))      &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans     &kp LC(X)      &kp LC(C)  &kp LC(V)          &trans  &trans                          &trans
             >;
         };
 
