@@ -136,10 +136,10 @@
 
         SHORTCUT {
             bindings = <
-&trans     &trans     &kp LG(E)  &kp LC(LS(N))  &kp LG(L)                             &trans  &trans          &kp UP_ARROW    &trans           &trans
-&kp LC(A)  &kp LC(S)  &kp LC(Y)  &kp LC(F)      &kp LC(H)  &trans             &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(B)  &kp LC(LA(Z))      &trans  &trans  &trans          &trans          &trans           &trans
-&trans     &trans     &trans     &kp LC(X)      &kp LC(C)  &kp LC(V)          &trans  &trans                                                   &trans
+&trans     &kp LG(SPACE)  &kp LG(E)  &kp LC(LS(N))  &kp LG(L)                             &trans  &trans          &kp UP_ARROW    &trans           &trans
+&kp LC(A)  &kp LC(S)      &kp LC(Y)  &kp LC(F)      &kp LC(H)  &trans             &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LC(Z)  &kp LC(X)      &kp LC(C)  &kp LC(V)      &kp LC(B)  &kp LC(LA(Z))      &trans  &trans  &trans          &trans          &trans           &trans
+&trans     &trans         &trans     &kp LC(X)      &kp LC(C)  &kp LC(V)          &trans  &trans                                                   &trans
             >;
         };
 
