@@ -107,10 +107,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &trans      &kp F7  &kp F8  &kp F9  &kp F10
-&kp SLASH                   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &trans      &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12
-&trans                      &kp NUMBER_0  &kp NUMBER_0  &trans        &trans        &trans                       &trans          &trans                              &kp F13
+&kp F1  &kp F2   &kp F3   &kp F4   &trans                              &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
+&kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans      &kp UNDERSCORE  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
+&kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans      &kp KP_NUMLOCK  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SPACE
+&trans  &trans   &trans   &trans   &trans  &trans      &kp BACKSPACE   &kp ENTER                                               &kp PERIOD
             >;
         };
 
@@ -136,10 +136,10 @@
 
         SHORTCUT {
             bindings = <
-&trans     &trans     &kp LG(E)  &kp LC(LS(N))  &kp LG(L)                             &trans  &trans  &trans  &trans  &trans
-&kp LC(A)  &kp LC(S)  &kp LC(Y)  &kp LC(F)      &kp LC(H)  &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(B)  &kp LC(LA(Z))      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans     &kp LC(X)      &kp LC(C)  &kp LC(V)          &trans  &trans                          &trans
+&trans     &trans     &kp LG(E)  &kp LC(LS(N))  &kp LG(L)                             &trans  &trans          &kp UP_ARROW    &trans           &trans
+&kp LC(A)  &kp LC(S)  &kp LC(Y)  &kp LC(F)      &kp LC(H)  &trans             &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(B)  &kp LC(LA(Z))      &trans  &trans  &trans          &trans          &trans           &trans
+&trans     &trans     &trans     &kp LC(X)      &kp LC(C)  &kp LC(V)          &trans  &trans                                                   &trans
             >;
         };
 
