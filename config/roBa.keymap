@@ -98,10 +98,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans       &trans
-&trans  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp TILDE  &trans      &kp LC(C)  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SQT      &trans
-&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp PIPE   &trans      &kp LC(V)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp AT_SIGN  &trans
-&trans  &trans           &trans                &trans                 &trans     &trans      &trans     &trans                                                                   &trans
+&trans        &trans        &kp ASTERISK  &kp SLASH     &kp NON_US_BACKSLASH                                                   &kp EQUAL     &kp PLUS      &kp MINUS     &kp DOUBLE_QUOTES  &kp SQT
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5          &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                &kp F11                   &kp F12                &kp F6        &kp F7        &kp F8        &kp F9             &kp F10
+&trans        &trans        &trans        &trans        &trans                &trans                    &trans                 &trans                                                       &trans
             >;
         };
 
