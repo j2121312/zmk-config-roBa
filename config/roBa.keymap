@@ -1,38 +1,38 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
+#include <behaviors。dtsi>
+#include <dt-bindings/zmk/bt。h>
+#include <dt-bindings/zmk/keys。h>
+#include <dt-bindings/zmk/pointing。h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
+ ・キャー = 「キャー」;
+ サササ = <0>;
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
+ ココ {
+ 京換性か = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
+ ササ{
+ 【タブ】 = <&kp TAB>;
+ ・不置 = <11 12>;
+ };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
+ shift_tab {
+ サササ = <&kp LS（TAB）>;
+ ・不置 = <12 13>;
+ };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
+ サササ {
+ しんんかん = <&to_layer_0 INT_MUHENKAN>;
+ ・不置 = <11 10>;
+ };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
+ double_quotation {
+ ・・・・・・ = <&kp ・・・・・_・・・・・・・>;
+ ・不置 = <20 21>;
+ };
 
         eq {
             bindings = <&kp EQUAL>;
